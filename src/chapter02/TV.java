@@ -52,7 +52,7 @@ public class TV {
 	}
 	
 	public void volume(boolean up) {
-		channel(volume + (up ? 1 : -1));
+		volume(volume + (up ? 1 : -1));
 	}
 	
 	public void status() {
